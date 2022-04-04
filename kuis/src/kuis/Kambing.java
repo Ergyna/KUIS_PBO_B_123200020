@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package kuis;
+
+/**
+ *
+ * @author HP series
+ */
+public class Kambing implements Animal{
+
+    @Override
+    public String getName() {
+        return "k";
+    }
+
+    @Override
+    public String getType() {
+        return "kambing";
+    }
+    
+    @Override
+    public void makeSound() {
+        System.out.print("k");
+    }
+    
+}
